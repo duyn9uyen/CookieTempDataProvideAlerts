@@ -12,9 +12,6 @@ namespace TempDataNotifications.Controllers
     // Here we inherit from our custom basecontroller, which uses the cookieTempDataProvider
     public class HomeController : BaseController
     {
-        //
-        // GET: /Home/
-
         public ActionResult Index()
         {
             this.Notify(NotifyType.Error, NotifyArea.Page, "Error: ServerSide: Page Notification");
