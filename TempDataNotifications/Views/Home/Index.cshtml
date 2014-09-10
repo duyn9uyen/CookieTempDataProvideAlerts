@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Home\Index</h2>
+
+<p>This is the Index.cshtml page content</p>
+
+<script>
+
+    $(function () {
+        NOTIFICATION_JS.showPageNotification("info", "ClientSide Page Notification: This message is from index.cshtml");
+        NOTIFICATION_JS.showFooterNotification("warning", "ClientSide Footer Notification: This message is from index.cshtml");
+    });
+
+</script>
